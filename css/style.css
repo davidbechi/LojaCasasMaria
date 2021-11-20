@@ -1,0 +1,71 @@
+ *{
+        margin: 0;
+        padding: 0;     
+        box-sizing:border-box;
+ }
+ 
+ 
+ 
+ header{
+    background:black;
+    padding: 5px 10;
+
+
+ }
+
+ .caixa{
+        margin: 0 auto;
+        position: relative;
+        max-width: 1100px;
+        padding: 0 1%;
+ }
+ 
+  nav{
+        
+        position: absolute;   
+
+  }
+
+    .menu{
+                padding-top: 10px;
+    }
+
+ .menu a{
+    text-align:left;
+     color:black;
+     text-decoration: none; 
+     margin-right: 5px;
+     font-weight: bold;
+     margin: 5px;
+     font-size: 30px;
+     color: white;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+ }
+
+  .logo{
+            position: relative;
+            width: 50%;
+            
+
+
+  }
+  
+  h2{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        text-align: right;
+        
+
+  }
+  
+  body{
+
+    background-color: rgb(87, 4, 4);
+ 
+  }
+
+
+     

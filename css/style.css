@@ -7,7 +7,6 @@
  
  header{
     background:black;
-    padding: 5px 10;
 
  }
 
@@ -18,12 +17,6 @@
         padding: 0 1%;
  }
  
-  nav{
-        
-        position: absolute;   
-
-  }
-
     .menu{
             padding-top: 10px;
             
@@ -44,7 +37,7 @@
  }
 
   .logo{
-            position: relative;
+           
             top: 15px;
             
 
@@ -60,22 +53,51 @@
 
   }
   
+  .depprodutos {
+                  margin:0 auto;
+                  padding: 5px 5px 10px;
+                  text-align:center;
+     }
+  
+  
+  
+  p{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 35px;
+            color: crimson;
+  }
+  
+  .depprodutos a{
+            text-align: center;
+            color: white;
+            text-decoration: none;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 25px;
+            border: 2px solid rgb(255, 60, 0);
+            background-color: rgb(102, 0, 0);
+  }
   body{
     background-color:rgb(1, 0, 68);
   }
 
- .produtos p{
-      background: 1px rgb(0, 0, 0);
-      font-size: 25px;
+#destaque{
+      color:rgb(255, 255, 255);
+      text-align: center;
+      bottom: 10cm;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+  .produtos p{
+      font-size: 23px;
       color: white;
       font-family:Verdana, Geneva, Tahoma, sans-serif;
-      }
+      text-align: center;
+}
   
  .produtos{
        display:flex;
-       justify-content: space-around;     
+       justify-content: space-evenly;     
        margin-top: 80px;
-       padding: 10px;
        
       }
 
@@ -91,16 +113,15 @@
 
  .produtos2 p{
 
-      background: 1px rgb(0, 0, 0);
-      font-size: 25px;
+      font-size: 23px;
       color: white;
       font-family:Verdana, Geneva, Tahoma, sans-serif;
-
+      text-align: center;
  }
 
  .produtos2 {
-            display: flex;
-            justify-content: space-around;
+            display:flex; 
+            justify-content: space-evenly;
             margin-top: 80px;
             
       }
@@ -109,21 +130,96 @@
       cursor:pointer;
  }
 
+ .produto1 p:hover {
+      transform:rotate(-3deg);
+ }
  #imagens{
-            width: 280px;
+            width: 190px;
 
     }        
+ .row{
+       margin-top: 20px;
+      padding: 0 1px;
+       display: table;
+       width: 90%;
+ }
 
  
+    form {
+            width: 50%;
+            margin: 0 auto;
+            box-shadow: 0 4px 8px #999;
+            background-color: white;
+            margin-bottom: 5cm;
+            border: 2px solid black;
+            padding: 15px;
+ }
+ 
+ input, textarea{
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 1em;
+      font: 1em sans-serif;
+      border: 1px solid #999;
+ }
+  label{
+        font-weight: bold;
+        padding-bottom: 3px;
+        display:inline-block;
+  }
+
+  button{
+            background-color: white;
+            border: 2px solid rgb(102, 0, 0);
+            color: rgb(102, 0, 0);
+            font-weight: bold;
+            padding: 3px;
+            border-radius: 3px;
+  }
+
+ .mercadoria {
+               padding: 5px;
+     
+ }
+     p{
+                  text-align: center;
+                   left: 20px; float:right;
+            }
+ 
+      #imagenot{
+                  width: 500px;
+                  margin: 40px;
+
+      }
+
+  @media screen and (max-width: 768px) {
+      form{
+            width: 100%;
+      }
+
+ }
+
+ @media screen and (max-width: 600px) {
+       button{
+             width:100%;
+       }
+       
+ }
+ 
  .sobre {
-       margin-top: 5cm;
        text-align: center;
        color:whitesmoke;
        font-family:Verdana, Geneva, Tahoma, sans-serif;
- }
+       max-width: 600px;
+       margin: 100px auto;
+     }
+.sobre #fotosobre{
+            max-width: 350px;
+            margin-top: 40px;
+}
 
  .buttonClass {
-      font-size:35px;
+      font-size:20px;
       font-family:Arial Black;
       text-align: justify;
       width:140px;
@@ -136,12 +232,12 @@
       border-top-right-radius:3px;
       border-bottom-left-radius:3px;
       border-bottom-right-radius:3px;
-      box-shadow:inset 0px -3px 7px 0px #0f5d01;
-      text-shadow:inset 0px 1px 0px #263666;
-      background:linear-gradient(#0f5d01, #009220);
+      box-shadow:inset 0px -3px 7px 0px #5d0101;
+      text-shadow:inset 0px 1px 0px #ffffff;
+      background:linear-gradient(#cc2323, #920018);
     }
     
     .buttonClass:hover {
-      background: linear-gradient(#009220, #0f5d01);
+      background: linear-gradient(#ff5101, #901d0e);
     }
                   

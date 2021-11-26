@@ -18,7 +18,7 @@
    
  # Tecnologias
   
-  As seguintes tecnologias foram usadas na construção do projeto:
+  As seguintes tecnologias foram usadas na construção do projeto em questão:
      
   - CSS3 
   - HTML5 

@@ -11,6 +11,7 @@
 
 
 # Ilustração do projeto
+   <p> Git Hub Pages https://davidbechi.github.io/LojaCasasMaria/ <p>
    <h1 align="center"></h1>
   
    ![Readme-gif](https://user-images.githubusercontent.com/52297085/143527465-c388ed87-87a4-4e83-95f2-140c57a42e97.gif)
